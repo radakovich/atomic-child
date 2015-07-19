@@ -15,40 +15,37 @@
 .content-area {
     padding: 0px;
 }
-.site-content {
-    margin-top: 0px;
-}
 
 .mc4wp-form {
-    width: 100%;
-    padding: 1em;
-    margin: auto;
+    width: 400px;
+    margin: auto !important;
 }
 
 .newsletter-email-label-container {
-    display: inline-block;
-    width: 30%;
+    width: 100%;
 }
 
 .newsletter-email-label-container > label {
-    text-align: right;
+    font-size: 24px;
+    text-align: center;
 }
 
 .newsletter-input-container {
-    display: inline-block;
-    width: 30%;
+    margin-top: 1em;
+    width: 100%;
 }
 
 #mc4wp_email {
-    width: 100%;
+    width: 325px;
     border-radius: 4px;
-    padding: 8px 5px;
+    padding: 9px 5px;
     border-bottom: 1px;
+    margin: auto;
 }
 
 .newsletter-signup-button-container {
-    display: inline-block;
-    width: 30%;
+    width: 100%;
+    margin: .4em auto;
 }
 
 #signup-btn {
@@ -60,7 +57,6 @@
     background: -webkit-gradient(linear, left top, left bottom, from(#8fc857), to(#5c9425));
     color: #fff;
     text-shadow: 0 1px 1px rgba(0,0,0,0.2);
+    display: block;
+    margin: auto;
 }
-/*#mc4wp_email {
-  width: 50%;
-}*/
